@@ -1,0 +1,155 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-image: url(../img/robot-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.benefici {
+    color: #02577A;
+}
+
+/* ============VANTAGGI=========== */
+
+.vantaggi {
+    height: 50vh;
+    color: #02577A;
+}
+
+.caratt {
+    background-color: #D4F0FC;
+}
+
+
+
+.caratt-list ul {
+    list-style: none;
+}
+
+.vant-img {
+    background-image: url(../img/robot-divano.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.vant-img-2 {
+    background-image: url(../img/cat-robot.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+/* ============PRENOTA=========== */
+
+
+
+.prenota-bg {
+    background-image: url(../img/robot-prenota.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cta {
+    border-radius: 0 48px 48px 0 !important;
+    font-weight: bold;
+}
+
+.email-h {
+    border-radius: 48px 0 0 48px;
+    opacity: 60%;
+}
+
+.privacy {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ============FOOTER=========== */
+
+footer {
+    background-color: #01303F;
+}
+
+/* ============MEDIA-QUERY=========== */
+
+@media only screen and (max-width: 768px) {
+  
+.prenota-bg p {
+    font-size: 1.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.card-text {
+    text-align: center !important;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+.mob {
+    text-align: center;
+}
+
+.mob p {
+    background: #0000001a;
+}
+
+.vant-img-2 {
+    display: none;
+}
+
+.vant-img {
+    display: none;
+}
+
+.form-md {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+
+    padding-top: 2% !important;
+
+}
+
+.prenota-bg h2 {
+    padding-bottom: 0 !important;
+    font-size: 4rem;
+}
+
+.prenota-bg p {
+    margin-bottom: 0 !important;
+    font-size: 1.2rem;
+}
+
+.form-md input {
+    margin-bottom: 3%;
+}
+
+.form-md input, .cta {
+
+    border-radius: 48px !important;
+}
+
+footer {
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+}
